@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const Container = ({name,serie,year,img,msg})=>{
 
-    const [greeting, setGreeting] = useState(true);
+    const [greeting, setGreeting] = useState(false);
 
     const greet = ()=>{
         setGreeting(true);
