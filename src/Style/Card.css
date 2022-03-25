@@ -1,0 +1,32 @@
+.container-character {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 87%;
+}
+h2{
+    text-shadow: 0 8px 12px grey;
+}
+
+.character-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (min-width:580px){
+    .container-character{
+        flex-wrap: nowrap;
+    }
+}
+
+
